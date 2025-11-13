@@ -2,6 +2,7 @@ import { useState, createContext } from "react";
 import Header from "./components/header";
 import Edit from "./components/Edit";
 import List from "./components/List";
+import Footer from "./components/Footer";
 import "./App.css";
 
 // ✅ Context 생성
@@ -19,6 +20,7 @@ export default function App() {
         <Header />
         <Edit />
         <List />
+        <Footer />
       </div>
     </todoContext.Provider>
   );

@@ -123,3 +123,13 @@ body {
 .delete-btn:hover {
   background: #c0392b;
 }
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footer > p {
+  cursor: pointer;
+  color: #555;
+}
